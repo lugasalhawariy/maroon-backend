@@ -60,11 +60,11 @@
                   <div class="col-auto">
                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">{{ $aktivitas_sukses }}</div>
                   </div>
-                  <div class="col">
+                  {{-- <div class="col">
                     <div class="progress progress-sm mr-2">
                       <div class="progress-bar bg-info" role="progressbar" style="width: {{ $aktivitas_sukses * 100 / $jumlah_aktivitas }}%" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                  </div>
+                  </div> --}}
                 </div>
               </div>
               <div class="col-auto">
