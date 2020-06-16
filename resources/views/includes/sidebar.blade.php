@@ -87,7 +87,7 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapseTwo">
+      <a class="nav-link collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapseTwo">
         <i class="far fa-calendar-alt"></i>
         <span>Activitiy</span>
       </a>
