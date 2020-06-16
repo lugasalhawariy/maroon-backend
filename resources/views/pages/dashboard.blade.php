@@ -62,7 +62,7 @@
                   </div>
                   <div class="col">
                     <div class="progress progress-sm mr-2">
-                      <div class="progress-bar bg-info" role="progressbar" style="width: {{ $aktivitas_sukses * 100 / $jumlah_aktivitas }}%" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar bg-info" role="progressbar" style="width: {{ $aktivitas_sukses * 100 / $jumlah_aktivitas }}%" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
