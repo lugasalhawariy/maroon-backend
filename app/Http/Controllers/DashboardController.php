@@ -18,9 +18,16 @@ class DashboardController extends Controller
         $jumlah_aktivitas = Activity::all()->count();
         $aktivitas_sukses = Activity::where('finish', 1)->count();
         $jumlah_pk = User::where('role', 'KETUA')
-            ->orWhere('role', 'BENDUM')
-                ->orWhere('role', 'SEKUM')
-                    ->orWhere('role', 'ORGANISASI')->count();
+            ->orWhere('role', 'BENDAHARA')
+                ->orWhere('role', 'SEKRETARIS')
+                    ->orWhere('role', 'ORGANISASI')
+                        ->orWhere('role', 'BIDER')
+                            ->orWhere('role', 'RPK')
+                                ->orWhere('role', 'MEDKOM')
+                                    ->orWhere('role', 'SOSPEM')
+                                        ->orWhere('role', 'SBO')
+                                            ->orWhere('role', 'HIKMAH')
+                                                ->orWhere('role', 'KWU')->count();
 
         
         return view('pages.dashboard')->with([
