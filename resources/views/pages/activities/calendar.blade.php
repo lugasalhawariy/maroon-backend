@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.secondary')
 
 @section('title', 'Calendar')
 
